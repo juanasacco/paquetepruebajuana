@@ -7,8 +7,8 @@
 #' @return un vector numérico de la temperatura ingresada en celsius
 #'
 #' @examples
-#' #convertir_F_a_C(100)
-#' #convertir_F_a_C(53.7)
+#' convertir_F_a_C(100)
+#' convertir_F_a_C(53.7)
 #'
 #' @export
 convertir_F_a_C <- function(temp_fahrenheit) {
