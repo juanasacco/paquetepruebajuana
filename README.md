@@ -4,6 +4,8 @@
 # paquetepruebajuana
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/juanasacco/paquetepruebajuana/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/juanasacco/paquetepruebajuana/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 El objetivo de paquetepruebajuana es mostrar como se crea un paqueta con
