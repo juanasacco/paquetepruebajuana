@@ -16,7 +16,7 @@ un vector numérico de la temperatura ingresada en celsius
 Esta función toma una temperatura en grados fahrenheit y la convierte en celsius
 }
 \examples{
-#convertir_F_a_C(100)
-#convertir_F_a_C(53.7)
+convertir_F_a_C(100)
+convertir_F_a_C(53.7)
 
 }
