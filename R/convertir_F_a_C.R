@@ -13,7 +13,7 @@
 #' @export
 convertir_F_a_C <- function(temp_fahrenheit) {
   if(!is.numeric(temp_fahrenheit)) {
-    cli::cli_abort (c("El argumento en temp_fahrenheit debe ser numérico",
+    cli::cli_abort (c("El argumento en temp_fahrenheit debe ser num/U00E9rico",
                       "i" = "El argumento ingresado es un { class(temp_fahrenheit[1]) }"))
   }
 

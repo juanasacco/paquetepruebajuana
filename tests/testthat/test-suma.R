@@ -3,5 +3,5 @@ test_that("la suma funciona", {
 })
 
 test_that("no suma caracteres", {
-  expect_error(suma("1", 3), "Los argumentos deben ser numéricos.")
+  expect_error(suma("1", 3), "Los argumentos deben ser num/U00E9ricos.")
 })

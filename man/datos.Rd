@@ -7,9 +7,8 @@
 \format{
 Los datos son generados de forma sintética.
 \describe{
-\item{a} {muestra de datos}
-\item {b}{muestra de datos multip;icados por cinco}
-
+\item{a}{muestra de datos}
+\item{b}{muestra de datos multiplicados por cinco}
 }
 }
 \source{

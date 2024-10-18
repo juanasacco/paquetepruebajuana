@@ -3,5 +3,5 @@ test_that("la converción funciona", {
 })
 
 test_that("no convierte caracteres", {
-  expect_error(convertir_F_a_C("61"), "El argumento en temp_fahrenheit debe ser numérico")
+  expect_error(convertir_F_a_C("61"), "El argumento en temp_fahrenheit debe ser num/U00E9rico")
 })

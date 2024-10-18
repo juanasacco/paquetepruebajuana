@@ -1,14 +1,11 @@
 #' Conjunto de datos de ejemplo
 #'
-#'Los datos son utilizados como ejemplo de nuestra funcion de suma.
+#' Los datos son utilizados como ejemplo de nuestra funcion de suma.
 #'
 #' @format Los datos son generados de forma sintética.
 #' \describe{
-#' \item{a} {muestra de datos}
-#' \item {b}{muestra de datos multip;icados por cinco}
-#'
-#'
+#'  \item{a}{muestra de datos}
+#'  \item{b}{muestra de datos multiplicados por cinco}
 #' }
-#'
 #' @source generacion propia con funciones de R
 "datos"

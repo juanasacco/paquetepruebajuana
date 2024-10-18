@@ -4,7 +4,7 @@
 \alias{suma}
 \title{Suma dos numeros}
 \usage{
-suma(x = 0, y = 0)
+suma(x = 2, y = 2)
 }
 \arguments{
 \item{x}{un vector numérico}
