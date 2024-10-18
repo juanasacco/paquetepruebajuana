@@ -1,0 +1,34 @@
+---
+title: "Como usar el paquete paquetepruebajuana"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paquetepruebajuana)
+```
+
+Esta es una viñieta de prueba podemos mostrar como usar las funciones de este paquete:
+
+-   `suma()`
+
+```{r}
+suma(4,7)
+```
+
+-   `convertir_F_a_C()`
+
+```{r}
+convertir_F_a_C(98)
+```
+

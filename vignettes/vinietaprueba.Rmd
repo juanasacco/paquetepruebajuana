@@ -1,0 +1,33 @@
+---
+title: "vinietaprueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinietaprueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paquetepruebajuana)
+```
+
+Esta viñeta es una viñeta de prueba. Las funciones de este paquete se utilizan de la siguiente manera:
+
+-   La funcion `suma()`:
+
+```{r}
+suma(3,4)
+```
+
+-   La funcion `convertir_F_a_C()`:
+
+```{r}
+convertir_F_a_C(58.9)
+```
