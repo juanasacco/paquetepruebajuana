@@ -11,5 +11,4 @@
 #' }
 #'
 #' @source generacion propia con funciones de R
-#' "datos"
-#'
+"datos"
