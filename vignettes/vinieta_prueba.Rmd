@@ -18,17 +18,16 @@ knitr::opts_chunk$set(
 library(paquetepruebajuana)
 ```
 
-Esta es una viñieta de prueba podemos mostrar como usar las funciones de este paquete:
+Esta viñeta es una viñeta de prueba. Las funciones de este paquete se utilizan de la siguiente manera:
 
--   `suma()`
+-   La funcion `suma()`
 
 ```{r}
 suma(4,7)
 ```
 
--   `convertir_F_a_C()`
+-   La funcion `convertir_F_a_C()`
 
 ```{r}
 convertir_F_a_C(98)
 ```
-
