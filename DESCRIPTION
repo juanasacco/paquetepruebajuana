@@ -15,8 +15,12 @@ URL: https://github.com/juanasacco/paquetepruebajuana, https://juanasacco.github
 BugReports: https://github.com/juanasacco/paquetepruebajuana/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Depends: 
     R (>= 2.10)
 LazyData: true
+Imports: 
+    dplyr
+Config/testthat/edition: 3

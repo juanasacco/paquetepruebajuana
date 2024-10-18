@@ -14,14 +14,21 @@
 #' sum(15,7)
 #'
 #' @export
-suma <- function(x = 0, y = 0) {
-  # Chequea si son numéricos
+suma <- function(x = 2, y = 2) {
+
   if (!is.numeric(x) | !is.numeric(y)) {
-    cli::cli_abort("Los argumentos deben ser numéricos")
+
+    cli::cli_abort(c(
+      "i" = "Los argumentos deben ser numéricos.",
+      "x" = "x es {class(x)}, y es {class(y)}"
+    ))
   }
-  # Chequea si los numeros son negativos
-  if (x < 0 | y < 0) {
-    cli::cli_abort("No puedo sumar negativos")
+
+  if (sign(x) < 0 | sign(y) < 0) {
+    cli::cli_abort(c(
+      "i" = "No puedo sumar negativos."
+    ))
   }
-  return(x + y)
+
+  x + y
 }
